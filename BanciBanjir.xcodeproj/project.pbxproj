@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3B233271BC131C700D8B50F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B233261BC131C700D8B50F /* main.m */; };
+		A3B2332A1BC131C700D8B50F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B233291BC131C700D8B50F /* AppDelegate.m */; };
+		A3B2332D1BC131C700D8B50F /* BanciBanjir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B2332B1BC131C700D8B50F /* BanciBanjir.xcdatamodeld */; };
+		A3B233301BC131C700D8B50F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2332F1BC131C700D8B50F /* MasterViewController.m */; };
+		A3B233331BC131C700D8B50F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B233321BC131C700D8B50F /* DetailViewController.m */; };
+		A3B233361BC131C700D8B50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B233341BC131C700D8B50F /* Main.storyboard */; };
+		A3B233381BC131C700D8B50F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B233371BC131C700D8B50F /* Assets.xcassets */; };
+		A3B2333B1BC131C700D8B50F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B233391BC131C700D8B50F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3B233221BC131C700D8B50F /* BanciBanjir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanciBanjir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B233261BC131C700D8B50F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B233281BC131C700D8B50F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3B233291BC131C700D8B50F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3B2332C1BC131C700D8B50F /* BanciBanjir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BanciBanjir.xcdatamodel; sourceTree = "<group>"; };
+		A3B2332E1BC131C700D8B50F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A3B2332F1BC131C700D8B50F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A3B233311BC131C700D8B50F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A3B233321BC131C700D8B50F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A3B233351BC131C700D8B50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3B233371BC131C700D8B50F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3B2333A1BC131C700D8B50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3B2333C1BC131C700D8B50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B2331F1BC131C700D8B50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3B233191BC131C700D8B50F = {
+			isa = PBXGroup;
+			children = (
+				A3B233241BC131C700D8B50F /* BanciBanjir */,
+				A3B233231BC131C700D8B50F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B233231BC131C700D8B50F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B233221BC131C700D8B50F /* BanciBanjir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B233241BC131C700D8B50F /* BanciBanjir */ = {
+			isa = PBXGroup;
+			children = (
+				A3B233281BC131C700D8B50F /* AppDelegate.h */,
+				A3B233291BC131C700D8B50F /* AppDelegate.m */,
+				A3B2332E1BC131C700D8B50F /* MasterViewController.h */,
+				A3B2332F1BC131C700D8B50F /* MasterViewController.m */,
+				A3B233311BC131C700D8B50F /* DetailViewController.h */,
+				A3B233321BC131C700D8B50F /* DetailViewController.m */,
+				A3B233341BC131C700D8B50F /* Main.storyboard */,
+				A3B233371BC131C700D8B50F /* Assets.xcassets */,
+				A3B233391BC131C700D8B50F /* LaunchScreen.storyboard */,
+				A3B2333C1BC131C700D8B50F /* Info.plist */,
+				A3B2332B1BC131C700D8B50F /* BanciBanjir.xcdatamodeld */,
+				A3B233251BC131C700D8B50F /* Supporting Files */,
+			);
+			path = BanciBanjir;
+			sourceTree = "<group>";
+		};
+		A3B233251BC131C700D8B50F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B233261BC131C700D8B50F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B233211BC131C700D8B50F /* BanciBanjir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B2333F1BC131C700D8B50F /* Build configuration list for PBXNativeTarget "BanciBanjir" */;
+			buildPhases = (
+				A3B2331E1BC131C700D8B50F /* Sources */,
+				A3B2331F1BC131C700D8B50F /* Frameworks */,
+				A3B233201BC131C700D8B50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BanciBanjir;
+			productName = BanciBanjir;
+			productReference = A3B233221BC131C700D8B50F /* BanciBanjir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B2331A1BC131C700D8B50F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "iReka Soft";
+				TargetAttributes = {
+					A3B233211BC131C700D8B50F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A3B2331D1BC131C700D8B50F /* Build configuration list for PBXProject "BanciBanjir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3B233191BC131C700D8B50F;
+			productRefGroup = A3B233231BC131C700D8B50F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B233211BC131C700D8B50F /* BanciBanjir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B233201BC131C700D8B50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2333B1BC131C700D8B50F /* LaunchScreen.storyboard in Resources */,
+				A3B233381BC131C700D8B50F /* Assets.xcassets in Resources */,
+				A3B233361BC131C700D8B50F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B2331E1BC131C700D8B50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B233331BC131C700D8B50F /* DetailViewController.m in Sources */,
+				A3B233301BC131C700D8B50F /* MasterViewController.m in Sources */,
+				A3B2332D1BC131C700D8B50F /* BanciBanjir.xcdatamodeld in Sources */,
+				A3B2332A1BC131C700D8B50F /* AppDelegate.m in Sources */,
+				A3B233271BC131C700D8B50F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3B233341BC131C700D8B50F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B233351BC131C700D8B50F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3B233391BC131C700D8B50F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B2333A1BC131C700D8B50F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B2333D1BC131C700D8B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3B2333E1BC131C700D8B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B233401BC131C700D8B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BanciBanjir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irekasoft.BanciBanjir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3B233411BC131C700D8B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BanciBanjir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irekasoft.BanciBanjir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B2331D1BC131C700D8B50F /* Build configuration list for PBXProject "BanciBanjir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2333D1BC131C700D8B50F /* Debug */,
+				A3B2333E1BC131C700D8B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B2333F1BC131C700D8B50F /* Build configuration list for PBXNativeTarget "BanciBanjir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B233401BC131C700D8B50F /* Debug */,
+				A3B233411BC131C700D8B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3B2332B1BC131C700D8B50F /* BanciBanjir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3B2332C1BC131C700D8B50F /* BanciBanjir.xcdatamodel */,
+			);
+			currentVersion = A3B2332C1BC131C700D8B50F /* BanciBanjir.xcdatamodel */;
+			path = BanciBanjir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A3B2331A1BC131C700D8B50F /* Project object */;
+}
