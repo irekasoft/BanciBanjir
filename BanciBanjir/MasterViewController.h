@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
+#import "DataInputVC.h"
+
+@import CoreData;
 
 @class DetailViewController;
 

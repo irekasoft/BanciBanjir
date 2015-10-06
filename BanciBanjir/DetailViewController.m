@@ -27,8 +27,40 @@
 
 - (void)configureView {
   // Update the user interface for the detail item.
-  if (self.detailItem) {
-      self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+  if (self.event) {
+    
+    self.detailDescriptionLabel.text = [self.event.timeStamp description];
+    
+    
+    self.tv_desc.text = [NSString stringWithFormat:@"name:%@ \nlatitude:%@ \nlongitude:%@ \nhakMilik:%@ \ngambarRumah:%@ \ngambarAhliKeluarga:%@ \ngambarIC:%@ \ngambarUbatan:%@ \nnamaTuanRumah:%@ \ntel:%@ \nhakMilik:%@ \nstat_ayah:%@ \nstat_ibu:%@ \nstat_ahli01:%@ \nstat_ahli02:%@ \nstat_ahli03:%@ \nstat_ahli04:%@ \nstat_ahli05:%@ \nlokasiTempatBerkumpulAtasBukit:%@ \nstatus_perluBantuan:%@ \nstatus_priority:%@ \nkebolehan:%@ \nnoPanggilanRadioTempatan:%@ \nnoHPKetuaKampung:%@",
+    self.event.name,
+    self.event.latitude,
+    self.event.longitude,
+    self.event.hakMilik,
+    self.event.gambarRumah,
+    self.event.gambarAhliKeluarga,
+    self.event.gambarIC,
+    self.event.gambarUbatan,
+    self.event.namaTuanRumah,
+    self.event.tel,
+    self.event.hakMilik,
+    self.event.stat_ayah,
+    self.event.stat_ibu,
+    self.event.stat_ahli01,
+    self.event.stat_ahli02,
+    self.event.stat_ahli03,
+    self.event.stat_ahli04,
+    self.event.stat_ahli05,
+    self.event.lokasiTempatBerkumpulAtasBukit,
+    self.event.status_perluBantuan,
+    self.event.status_priority,
+    self.event.kebolehan,
+    self.event.noPanggilanRadioTempatan,
+    self.event.noHPKetuaKampung];
+    
+    
+
+    
   }
 }
 
