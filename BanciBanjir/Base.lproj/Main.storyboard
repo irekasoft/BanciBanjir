@@ -178,7 +178,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7d-NH-N1P">
-                                <rect key="frame" x="229" y="21" width="30" height="30"/>
+                                <rect key="frame" x="215" y="21" width="30" height="30"/>
                                 <state key="normal" title="IC"/>
                                 <connections>
                                     <action selector="ic:" destination="Pc1-IN-Z8N" eventType="touchUpInside" id="532-eF-rpj"/>
@@ -191,33 +191,33 @@
                                     <action selector="ubatan:" destination="Pc1-IN-Z8N" eventType="touchUpInside" id="ZeQ-GZ-9ZN"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DFQ-QC-EDF">
-                                <rect key="frame" x="165" y="54" width="44" height="40"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0C-dz-1Ti">
-                                <rect key="frame" x="217" y="63" width="342" height="21"/>
+                                <rect key="frame" x="389" y="63" width="170" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsV-tY-o7y">
-                                <rect key="frame" x="135" y="20" width="86" height="30"/>
-                                <state key="normal" title="AhliKeluarga"/>
+                                <rect key="frame" x="148" y="20" width="40" height="30"/>
+                                <state key="normal" title="Famili"/>
                                 <connections>
                                     <action selector="ahliKeluarga:" destination="Pc1-IN-Z8N" eventType="touchUpInside" id="gk5-ar-Cex"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ei-n4-TCT">
-                                <rect key="frame" x="10" y="54" width="44" height="40"/>
+                                <rect key="frame" x="81" y="54" width="44" height="40"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wYa-XL-lmI">
-                                <rect key="frame" x="113" y="54" width="44" height="40"/>
+                                <rect key="frame" x="208" y="54" width="44" height="40"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0V0-Ze-P36">
-                                <rect key="frame" x="62" y="54" width="44" height="40"/>
+                                <rect key="frame" x="148" y="54" width="44" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DFQ-QC-EDF">
+                                <rect key="frame" x="270" y="54" width="44" height="40"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                         </subviews>

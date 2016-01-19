@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <BanciKit/CoreDataAccess.h>
+#import "CoreDataAccess.h"
 
 
 NS_ASSUME_NONNULL_BEGIN

@@ -21,22 +21,8 @@
 		A3B233491BC1421500D8B50F /* Event+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B233461BC1421500D8B50F /* Event+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		A3B2334A1BC1421500D8B50F /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B233481BC1421500D8B50F /* Event.m */; settings = {ASSET_TAGS = (); }; };
 		A3B233841BC1966200D8B50F /* CoreDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B233831BC1966200D8B50F /* CoreDataAccess.m */; settings = {ASSET_TAGS = (); }; };
-		A3B2338D1BC1968A00D8B50F /* BanciKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B2338C1BC1968A00D8B50F /* BanciKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3B233911BC1968A00D8B50F /* BanciKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2338A1BC1968A00D8B50F /* BanciKit.framework */; };
-		A3B233921BC1968A00D8B50F /* BanciKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2338A1BC1968A00D8B50F /* BanciKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A3B233961BC196A000D8B50F /* CoreDataAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B233821BC1966200D8B50F /* CoreDataAccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3B2339A1BC19F2600D8B50F /* HTML in Resources */ = {isa = PBXBuildFile; fileRef = A3B233991BC19F2600D8B50F /* HTML */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A3B2338F1BC1968A00D8B50F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A3B2331A1BC131C700D8B50F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A3B233891BC1968A00D8B50F;
-			remoteInfo = BanciKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A3B2337D1BC1936E00D8B50F /* Embed Frameworks */ = {
@@ -45,7 +31,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A3B233921BC1968A00D8B50F /* BanciKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,24 +60,13 @@
 		A3B233461BC1421500D8B50F /* Event+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Event+CoreDataProperties.m"; path = "coredata/Event+CoreDataProperties.m"; sourceTree = "<group>"; };
 		A3B233471BC1421500D8B50F /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = coredata/Event.h; sourceTree = "<group>"; };
 		A3B233481BC1421500D8B50F /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = coredata/Event.m; sourceTree = "<group>"; };
-		A3B233821BC1966200D8B50F /* CoreDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataAccess.h; path = ../BanciBanjir/CoreDataAccess.h; sourceTree = "<group>"; };
-		A3B233831BC1966200D8B50F /* CoreDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataAccess.m; path = ../BanciBanjir/CoreDataAccess.m; sourceTree = "<group>"; };
-		A3B2338A1BC1968A00D8B50F /* BanciKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BanciKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3B2338C1BC1968A00D8B50F /* BanciKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BanciKit.h; sourceTree = "<group>"; };
-		A3B2338E1BC1968A00D8B50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B233821BC1966200D8B50F /* CoreDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataAccess.h; sourceTree = "<group>"; };
+		A3B233831BC1966200D8B50F /* CoreDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataAccess.m; sourceTree = "<group>"; };
 		A3B233991BC19F2600D8B50F /* HTML */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A3B2331F1BC131C700D8B50F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3B233911BC1968A00D8B50F /* BanciKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3B233861BC1968A00D8B50F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -107,7 +81,6 @@
 			children = (
 				A3B233991BC19F2600D8B50F /* HTML */,
 				A3B233241BC131C700D8B50F /* BanciBanjir */,
-				A3B2338B1BC1968A00D8B50F /* BanciKit */,
 				A3B233231BC131C700D8B50F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				A3B233221BC131C700D8B50F /* BanciBanjir.app */,
-				A3B2338A1BC1968A00D8B50F /* BanciKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +112,8 @@
 				A3B2333C1BC131C700D8B50F /* Info.plist */,
 				A3900DF11BC1C2CD00B917AD /* fetch.js */,
 				A3B2332B1BC131C700D8B50F /* BanciBanjir.xcdatamodeld */,
+				A3B233821BC1966200D8B50F /* CoreDataAccess.h */,
+				A3B233831BC1966200D8B50F /* CoreDataAccess.m */,
 				A3B2334B1BC1422000D8B50F /* coredata */,
 				A3B233251BC131C700D8B50F /* Supporting Files */,
 			);
@@ -165,30 +139,7 @@
 			name = coredata;
 			sourceTree = "<group>";
 		};
-		A3B2338B1BC1968A00D8B50F /* BanciKit */ = {
-			isa = PBXGroup;
-			children = (
-				A3B2338C1BC1968A00D8B50F /* BanciKit.h */,
-				A3B2338E1BC1968A00D8B50F /* Info.plist */,
-				A3B233821BC1966200D8B50F /* CoreDataAccess.h */,
-				A3B233831BC1966200D8B50F /* CoreDataAccess.m */,
-			);
-			path = BanciKit;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		A3B233871BC1968A00D8B50F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3B2338D1BC1968A00D8B50F /* BanciKit.h in Headers */,
-				A3B233961BC196A000D8B50F /* CoreDataAccess.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A3B233211BC131C700D8B50F /* BanciBanjir */ = {
@@ -203,30 +154,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				A3B233901BC1968A00D8B50F /* PBXTargetDependency */,
 			);
 			name = BanciBanjir;
 			productName = BanciBanjir;
 			productReference = A3B233221BC131C700D8B50F /* BanciBanjir.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A3B233891BC1968A00D8B50F /* BanciKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A3B233931BC1968A00D8B50F /* Build configuration list for PBXNativeTarget "BanciKit" */;
-			buildPhases = (
-				A3B233851BC1968A00D8B50F /* Sources */,
-				A3B233861BC1968A00D8B50F /* Frameworks */,
-				A3B233871BC1968A00D8B50F /* Headers */,
-				A3B233881BC1968A00D8B50F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BanciKit;
-			productName = BanciKit;
-			productReference = A3B2338A1BC1968A00D8B50F /* BanciKit.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -239,9 +171,7 @@
 				TargetAttributes = {
 					A3B233211BC131C700D8B50F = {
 						CreatedOnToolsVersion = 7.0;
-					};
-					A3B233891BC1968A00D8B50F = {
-						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 23A6EJTDXW;
 					};
 				};
 			};
@@ -259,7 +189,6 @@
 			projectRoot = "";
 			targets = (
 				A3B233211BC131C700D8B50F /* BanciBanjir */,
-				A3B233891BC1968A00D8B50F /* BanciKit */,
 			);
 		};
 /* End PBXProject section */
@@ -274,13 +203,6 @@
 				A3B233381BC131C700D8B50F /* Assets.xcassets in Resources */,
 				A3B233361BC131C700D8B50F /* Main.storyboard in Resources */,
 				A3900DF21BC1C2CD00B917AD /* fetch.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3B233881BC1968A00D8B50F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,22 +226,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3B233851BC1968A00D8B50F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A3B233901BC1968A00D8B50F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A3B233891BC1968A00D8B50F /* BanciKit */;
-			targetProxy = A3B2338F1BC1968A00D8B50F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A3B233341BC131C700D8B50F /* Main.storyboard */ = {
@@ -427,11 +334,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BanciBanjir/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.irekasoft.BanciBanjir;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irekasoft.bancibanjir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "994336ea-e141-4b0d-9bda-2abe4468eb97";
 			};
 			name = Debug;
 		};
@@ -439,49 +348,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: iReka Soft";
 				INFOPLIST_FILE = BanciBanjir/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.irekasoft.BanciBanjir;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irekasoft.bancibanjir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		A3B233941BC1968A00D8B50F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BanciKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.irekasoft.BanciKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A3B233951BC1968A00D8B50F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BanciKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.irekasoft.BanciKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				PROVISIONING_PROFILE = "994336ea-e141-4b0d-9bda-2abe4468eb97";
 			};
 			name = Release;
 		};
@@ -502,15 +375,6 @@
 			buildConfigurations = (
 				A3B233401BC131C700D8B50F /* Debug */,
 				A3B233411BC131C700D8B50F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A3B233931BC1968A00D8B50F /* Build configuration list for PBXNativeTarget "BanciKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A3B233941BC1968A00D8B50F /* Debug */,
-				A3B233951BC1968A00D8B50F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

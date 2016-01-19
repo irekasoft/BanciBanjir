@@ -8,7 +8,6 @@
 
 #import "CoreDataAccess.h"
 
-
 @implementation CoreDataAccess
 
 + (CoreDataAccess*)sharedInstance

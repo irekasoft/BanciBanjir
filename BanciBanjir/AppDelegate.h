@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <BanciKit/CoreDataAccess.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
